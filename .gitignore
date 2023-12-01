@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+*.pyc
+*.pyo
+*.swp
+*~
+*.swp
+*.swo
+__pycache__
