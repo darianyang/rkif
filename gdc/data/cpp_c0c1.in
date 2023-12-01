@@ -1,0 +1,21 @@
+    parm 1hk0_wt_dry.prmtop 
+ trajin 06_prod.nc 1 last 1000 
+ trajin 07_prod.nc 1 last 1000 
+ trajin 08_prod.nc 1 last 1000 
+ trajin 09_prod.nc 1 last 1000 
+ trajin 10_prod.nc 1 last 1000 
+ reference 1hk0_wt_solv.pdb :* [REF] 
+     multidihedral dihedral_trp121 phi psi resrange 121-121               out 1us/dihedral_trp121.dat 
+ rms heavyRMSD :1-173&!@H* out 1us/rmsd_heavy.dat ref [REF] mass time 1 
+ rms bbRMSD :1-173@CA,C,O,N out 1us/rmsd_bb.dat ref [REF] mass time 1 
+ radgyr :1-173        out 1us/radgyr.dat 
+ angle domain_angle :1-80&!@H= :85&!@H= :88-168&!@H= out 1us/domain_angle.dat 
+ distance domain_distance :1-80&!@H= :88-168&!@H= out 1us/domain_distance.dat 
+ rms ntd_fit_bb :1-80@CA,C,O,N ref [REF] mass 
+ rms ctd_rms_bb :88-168@CA,C,O,N out 1us/rmsd_bb_ctd.dat nofit ref [REF] mass 
+ rms ctd_fit_bb :88-168@CA,C,O,N ref [REF] mass 
+ rms ntd_rms_bb :1-80@CA,C,O,N out 1us/rmsd_bb_ntd.dat nofit ref [REF] mass 
+ vector V1 :4,36@CA,C,O,N :43@CA,C,O,N  
+ vector V2 :4,36@CA,C,O,N :124,90@CA,C,O,N 
+ vectormath vec1 V1 vec2 V2 out 1us/o_angle.dat name o_angle dotangle 
+run

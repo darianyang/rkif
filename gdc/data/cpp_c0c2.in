@@ -1,0 +1,12 @@
+    parm 1hk0_wt_dry.prmtop 
+ trajin 06_prod.nc 1 last 1000 
+ trajin 07_prod.nc 1 last 1000 
+ trajin 08_prod.nc 1 last 1000 
+ trajin 09_prod.nc 1 last 1000 
+ trajin 10_prod.nc 1 last 1000 
+ reference 1hk0_wt_solv.pdb :* [REF] 
+    rms rms_heavy :1-173&!@H* ref [REF] mass     perres    perresmask !@H*     perresout 1us/rmsd_heavy_perres.dat     perresavg 1us/rmsd_heavy_perres_avg.dat     out       1us/rmsd_heavy_perres.dat 
+ secstruct ss :*           out       1us/ss.dat           sumout    1us/ss_sum.dat           assignout 1us/ss_assign.dat 
+ multidihedral phi resrange 1-173 out 1us/dihedrals_phi.dat 
+ multidihedral psi resrange 1-173 out 1us/dihedrals_psi.dat 
+run
