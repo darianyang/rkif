@@ -5,8 +5,8 @@ CPPTRAJ: Trajectory Analysis. V4.25.6 MPI
     _|_/\_|_/\_|_/\_|_
 
 | Running on 8 processes.
-| Date/time: 09/23/22 19:22:52
-| Available memory: 245.066 GB
+| Date/time: 09/23/22 19:22:55
+| Available memory: 244.958 GB
 
 INPUT: Reading input from '1us/cpp_c0c2.in'
   [parm 1hk0_wt_dry.prmtop]
@@ -119,21 +119,21 @@ Warning: Res PRO:147 is missing atoms H
 
 BEGIN PARALLEL TRAJECTORY PROCESSING:
  0% 10% 20% 31% 40% 50% 60% 70% 81% 90% 100% Complete.
-TIME: Rank 0 throughput= 1259.1667 frames / second.
-TIME: Rank 1 throughput= 1256.5466 frames / second.
-TIME: Rank 2 throughput= 1251.7525 frames / second.
-TIME: Rank 3 throughput= 1254.3274 frames / second.
-TIME: Rank 4 throughput= 1275.2760 frames / second.
-TIME: Rank 5 throughput= 1277.4002 frames / second.
-TIME: Rank 6 throughput= 1268.5590 frames / second.
-TIME: Rank 7 throughput= 1277.4002 frames / second.
-TIME: Avg. throughput= 10013.6185 frames / second.
+TIME: Rank 0 throughput= 1284.3038 frames / second.
+TIME: Rank 1 throughput= 1262.7538 frames / second.
+TIME: Rank 2 throughput= 1267.2986 frames / second.
+TIME: Rank 3 throughput= 1262.5625 frames / second.
+TIME: Rank 4 throughput= 1288.5801 frames / second.
+TIME: Rank 5 throughput= 1285.9950 frames / second.
+TIME: Rank 6 throughput= 1281.8278 frames / second.
+TIME: Rank 7 throughput= 1286.4979 frames / second.
+TIME: Avg. throughput= 10100.0919 frames / second.
 
 ACTION OUTPUT:
     RMSD: Per-residue: Writing data for 173 residues to 1us/rmsd_heavy_perres.dat
-TIME:	DSSP total 0.0780 s
-TIME:		Calc Hbonds 0.0726 s ( 93.05%)
-TIME:		Assignment  0.0054 s (  6.92%)
+TIME:	DSSP total 0.0764 s
+TIME:		Calc Hbonds 0.0710 s ( 92.93%)
+TIME:		Assignment  0.0054 s (  7.05%)
 Warning: Analysis does not currently use multiple MPI processes.
 TIME: Analyses took 0.0000 seconds.
 
@@ -858,16 +858,16 @@ DATAFILES (7 total):
   ss_assign.dat (SS assignment)
 
 RUN TIMING:
-TIME:		Init               : 0.0197 s (  3.75%)
-TIME:		Trajectory Process : 0.0999 s ( 19.04%)
-TIME:		Data Set Sync      : 0.0042 s (  0.81%)
+TIME:		Init               : 0.0187 s (  3.59%)
+TIME:		Trajectory Process : 0.0990 s ( 19.03%)
+TIME:		Data Set Sync      : 0.0043 s (  0.83%)
 TIME:		Action Post        : 0.0013 s (  0.24%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
-TIME:		Data File Write    : 0.3992 s ( 76.10%)
+TIME:		Data File Write    : 0.3967 s ( 76.25%)
 TIME:		Other              : 0.0003 s (  0.00%)
-TIME:	Run Total 0.5245 s
+TIME:	Run Total 0.5202 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 0.5859 seconds.
+TIME: Total execution time: 0.5755 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
