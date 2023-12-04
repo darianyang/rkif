@@ -25,7 +25,7 @@ report_timings: bool = True
     Choose whether to print to the console how long the job took to run.
     Optional, default is True.
 """
-from MDAnalysis.tests.datafiles import PSF, DCD  # test trajectory
+#from MDAnalysis.tests.datafiles import PSF, DCD  # test trajectory
 from key_interactions_finder import contact_identification
 
 # Here we will use a test trajectory from MDAnalysis to showcase the function.
@@ -35,8 +35,8 @@ from key_interactions_finder import contact_identification
 # Version 1. - All residues in the trajectory will be analysed.
 # First calculation took 26 seconds to run on my laptop.
 contact_identification.calculate_contacts(
-    parm_file=PSF,
-    traj_file=DCD,
+    parm_file="1hk0_wt_dry.prmtop",
+    traj_file="1us_1000i_wt_v01.ncdf",
     out_file="contacts_all_res.csv",
     report_timings=True,  # optional
 )
@@ -48,11 +48,11 @@ contact_identification.calculate_contacts(
 # However, due to a rewrite of this code, it is no longer recommended
 # as it will take longer, overall to run.
 # I.e., run the analysis as in version1.
-contact_identification.calculate_contacts(
-    parm_file=PSF,
-    traj_file=DCD,
-    out_file="contacts_res_1_to_50.csv",
-    first_res=1,  # optional
-    last_res=50,  # optional
-    report_timings=True,  # optional
-)
+#contact_identification.calculate_contacts(
+#    parm_file=PSF,
+#    traj_file=DCD,
+#    out_file="contacts_res_1_to_50.csv",
+#    first_res=1,  # optional
+#    last_res=50,  # optional
+#    report_timings=True,  # optional
+#)
