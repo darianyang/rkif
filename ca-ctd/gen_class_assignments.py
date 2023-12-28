@@ -17,7 +17,7 @@ import operator
 
 class Gen_Class_Assignments:
 
-    def __init__(self, c1_bounds=27, c2_bounds=16.5, c1_label="d1", c2_label="d2",
+    def __init__(self, c1_bounds=28, c2_bounds=16.5, c1_label="d1", c2_label="d2",
                  coord_data_file="pcoord.dat",
                  out_filename="CA-CTD_class_assignments.txt"):
         """
