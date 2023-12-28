@@ -4,15 +4,15 @@ CPPTRAJ: Trajectory Analysis. V6.4.4 (AmberTools)
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 12/27/23 18:34:08
-| Available memory: 464.452 MB
+| Date/time: 12/27/23 19:46:10
+| Available memory: 254.353 MB
 
 INPUT: Reading input from 'calc_oa.in'
   [parm m01_2kod_dry.prmtop]
 	Reading 'm01_2kod_dry.prmtop' as Amber Topology
 	Radius Set: modified Bondi radii (mbondi)
-  [trajin 1500-3000i_10i.nc]
-	Reading '1500-3000i_10i.nc' as Amber NetCDF
+  [trajin 1500-3000i.nc]
+	Reading '1500-3000i.nc' as Amber NetCDF
   [vector O1 :18-22@CA,C,O,N :46-49@CA,C,O,N]
     VECTOR: Type Mask, mask [:18-22@CA,C,O,N], second mask [:46-49@CA,C,O,N]
   [vector O2 :18-22@CA,C,O,N :134-137@CA,C,O,N]
@@ -21,29 +21,29 @@ INPUT: Reading input from 'calc_oa.in'
     VECTOR: Type Mask, mask [:106-110@CA,C,O,N], second mask [:46-49@CA,C,O,N]
   [vector O4 :106-110@CA,C,O,N :134-137@CA,C,O,N]
     VECTOR: Type Mask, mask [:106-110@CA,C,O,N], second mask [:134-137@CA,C,O,N]
-  [vectormath vec1 O1 vec2 O2 out pcoord.dat name o_angle_m1 dotangle]
+  [vectormath vec1 O1 vec2 O2 out pcoord_full.dat name o_angle_m1 dotangle]
     VECTORMATH: Calculating Angle from dot product of vectors O1 and O2
 	Vectors will be normalized.
-	Results are written to pcoord.dat
-  [vectormath vec1 O3 vec2 O4 out pcoord.dat name o_angle_m2 dotangle]
+	Results are written to pcoord_full.dat
+  [vectormath vec1 O3 vec2 O4 out pcoord_full.dat name o_angle_m2 dotangle]
     VECTORMATH: Calculating Angle from dot product of vectors O3 and O4
 	Vectors will be normalized.
-	Results are written to pcoord.dat
+	Results are written to pcoord_full.dat
   [vector D1 :1-75@CA,C,O,N :39@CA,C,O,N]
     VECTOR: Type Mask, mask [:1-75@CA,C,O,N], second mask [:39@CA,C,O,N]
   [vector D2 :89-163@CA,C,O,N :127@CA,C,O,N]
     VECTOR: Type Mask, mask [:89-163@CA,C,O,N], second mask [:127@CA,C,O,N]
-  [vectormath vec1 D1 vec2 D2 out pcoord.dat name c2_angle dotangle]
+  [vectormath vec1 D1 vec2 D2 out pcoord_full.dat name c2_angle dotangle]
     VECTORMATH: Calculating Angle from dot product of vectors D1 and D2
 	Vectors will be normalized.
-	Results are written to pcoord.dat
-  [multidihedral dihtype chi1:N:CA:CB:CG resrange 41-41 out pcoord.dat]
+	Results are written to pcoord_full.dat
+  [multidihedral dihtype chi1:N:CA:CB:CG resrange 41-41 out pcoord_full.dat]
     MULTIDIHEDRAL: Calculating chi1 dihedrals for residues in range 41-41
-	Output to pcoord.dat
+	Output to pcoord_full.dat
 	Output range is -180 to 180 degrees.
-  [multidihedral dihtype chi1:N:CA:CB:CG resrange 129-129 out pcoord.dat]
+  [multidihedral dihtype chi1:N:CA:CB:CG resrange 129-129 out pcoord_full.dat]
     MULTIDIHEDRAL: Calculating chi1 dihedrals for residues in range 129-129
-	Output to pcoord.dat
+	Output to pcoord_full.dat
 	Output range is -180 to 180 degrees.
   [go]
 ---------- RUN BEGIN -------------------------------------------------
@@ -52,8 +52,8 @@ PARAMETER FILES (1 total):
  0: m01_2kod_dry.prmtop, 2760 atoms, 176 res, box: Truncated octahedron, 2 mol
 
 INPUT TRAJECTORIES (1 total):
- 0: '1500-3000i_10i.nc' is a NetCDF AMBER trajectory with coordinates, velocities, time, box, Parm m01_2kod_dry.prmtop (Truncated octahedron box) (reading 10207 of 10207)
-  Coordinate processing will occur on 10207 frames.
+ 0: '1500-3000i.nc' is a NetCDF AMBER trajectory with coordinates, velocities, time, box, Parm m01_2kod_dry.prmtop (Truncated octahedron box) (reading 102068 of 102068)
+  Coordinate processing will occur on 102068 frames.
 
 BEGIN TRAJECTORY PROCESSING:
 .....................................................
@@ -76,57 +76,57 @@ ACTION SETUP FOR PARM 'm01_2kod_dry.prmtop' (8 actions):
   5: [vector D2 :89-163@CA,C,O,N :127@CA,C,O,N]
 	Mask [:89-163@CA,C,O,N] corresponds to 300 atoms.
 	Mask [:127@CA,C,O,N] corresponds to 4 atoms.
-  6: [multidihedral dihtype chi1:N:CA:CB:CG resrange 41-41 out pcoord.dat]
+  6: [multidihedral dihtype chi1:N:CA:CB:CG resrange 41-41 out pcoord_full.dat]
 	ResRange=[41-41] chi1, 1 dihedrals.
 	1 [chi1:41]: TRP@N TRP@CA TRP@CB TRP@CG
-  7: [multidihedral dihtype chi1:N:CA:CB:CG resrange 129-129 out pcoord.dat]
+  7: [multidihedral dihtype chi1:N:CA:CB:CG resrange 129-129 out pcoord_full.dat]
 	ResRange=[129-129] chi1, 1 dihedrals.
 	1 [chi1:129]: TRP@N TRP@CA TRP@CB TRP@CG
------ 1500-3000i_10i.nc (1-10207, 1) -----
+----- 1500-3000i.nc (1-102068, 1) -----
  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
 
-Read 10207 frames and processed 10207 frames.
-TIME: Avg. throughput= 23747.7577 frames / second.
+Read 102068 frames and processed 102068 frames.
+TIME: Avg. throughput= 23460.8932 frames / second.
 
 ACTION OUTPUT:
 
 ANALYSIS: Performing 3 analyses:
-  0: [vectormath vec1 O1 vec2 O2 out pcoord.dat name o_angle_m1 dotangle]
-	'O1' size 10207, 'O2' size 10207, output size 10207
-  1: [vectormath vec1 O3 vec2 O4 out pcoord.dat name o_angle_m2 dotangle]
-	'O3' size 10207, 'O4' size 10207, output size 10207
-  2: [vectormath vec1 D1 vec2 D2 out pcoord.dat name c2_angle dotangle]
-	'D1' size 10207, 'D2' size 10207, output size 10207
+  0: [vectormath vec1 O1 vec2 O2 out pcoord_full.dat name o_angle_m1 dotangle]
+	'O1' size 102068, 'O2' size 102068, output size 102068
+  1: [vectormath vec1 O3 vec2 O4 out pcoord_full.dat name o_angle_m2 dotangle]
+	'O3' size 102068, 'O4' size 102068, output size 102068
+  2: [vectormath vec1 D1 vec2 D2 out pcoord_full.dat name c2_angle dotangle]
+	'D1' size 102068, 'D2' size 102068, output size 102068
 
-TIME: Analyses took 0.0026 seconds.
+TIME: Analyses took 0.0356 seconds.
 
 DATASETS (11 total):
-	O1 "O1" (vector, vector), size is 10207 (489.940 kB)
-	O2 "O2" (vector, vector), size is 10207 (489.940 kB)
-	O3 "O3" (vector, vector), size is 10207 (489.940 kB)
-	O4 "O4" (vector, vector), size is 10207 (489.940 kB)
-	o_angle_m1 "o_angle_m1" (double), size is 10207 (81.656 kB)
-	o_angle_m2 "o_angle_m2" (double), size is 10207 (81.656 kB)
-	D1 "D1" (vector, vector), size is 10207 (489.940 kB)
-	D2 "D2" (vector, vector), size is 10207 (489.940 kB)
-	c2_angle "c2_angle" (double), size is 10207 (81.656 kB)
-	MDIH_00010[chi1]:41 "chi1:41" (double, torsion), size is 10207 (81.656 kB)
-	MDIH_00011[chi1]:129 "chi1:129" (double, torsion), size is 10207 (81.656 kB)
-    Total data set memory usage is at least 3.348 MB
+	O1 "O1" (vector, vector), size is 102068 (4.899 MB)
+	O2 "O2" (vector, vector), size is 102068 (4.899 MB)
+	O3 "O3" (vector, vector), size is 102068 (4.899 MB)
+	O4 "O4" (vector, vector), size is 102068 (4.899 MB)
+	o_angle_m1 "o_angle_m1" (double), size is 102068 (816.544 kB)
+	o_angle_m2 "o_angle_m2" (double), size is 102068 (816.544 kB)
+	D1 "D1" (vector, vector), size is 102068 (4.899 MB)
+	D2 "D2" (vector, vector), size is 102068 (4.899 MB)
+	c2_angle "c2_angle" (double), size is 102068 (816.544 kB)
+	MDIH_00010[chi1]:41 "chi1:41" (double, torsion), size is 102068 (816.544 kB)
+	MDIH_00011[chi1]:129 "chi1:129" (double, torsion), size is 102068 (816.544 kB)
+    Total data set memory usage is at least 33.478 MB
 
 DATAFILES (1 total):
-  pcoord.dat (Standard Data File):  o_angle_m1 o_angle_m2 c2_angle chi1:41 chi1:129
+  pcoord_full.dat (Standard Data File):  o_angle_m1 o_angle_m2 c2_angle chi1:41 chi1:129
 
 RUN TIMING:
-TIME:		Init               : 0.0000 s (  0.01%)
-TIME:		Trajectory Process : 0.4298 s ( 92.91%)
+TIME:		Init               : 0.0001 s (  0.00%)
+TIME:		Trajectory Process : 4.3506 s ( 92.73%)
 TIME:		Action Post        : 0.0000 s (  0.00%)
-TIME:		Analysis           : 0.0026 s (  0.56%)
-TIME:		Data File Write    : 0.0302 s (  6.52%)
-TIME:		Other              : 0.0000 s (  0.00%)
-TIME:	Run Total 0.4626 s
+TIME:		Analysis           : 0.0356 s (  0.76%)
+TIME:		Data File Write    : 0.3052 s (  6.50%)
+TIME:		Other              : 0.0001 s (  0.00%)
+TIME:	Run Total 4.6916 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 0.8315 seconds.
+TIME: Total execution time: 5.0936 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
