@@ -9,3 +9,4 @@
 __pycache__
 *.nc
 *.ncdf
+contacts_all_res_full.csv

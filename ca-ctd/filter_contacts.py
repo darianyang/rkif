@@ -12,6 +12,7 @@ import re
 
 # Load the CSV file into a pandas DataFrame
 csv_file_path = "contacts_all_res.csv"
+csv_file_path = "contacts_all_res_full.csv"
 df = pd.read_csv(csv_file_path)
       
 # Define a function to check if a column name corresponds to inter-domain features
@@ -51,6 +52,6 @@ filtered_columns = [col for col in df.columns if is_inter_domain_feature(col, 88
 filtered_df = df[filtered_columns]
 
 # Save the filtered DataFrame to a new CSV file
-filtered_df.to_csv("inter_contacts.csv", index=False)
+filtered_df.to_csv("inter_contacts_full.csv", index=False)
 
 #print(filtered_df.shape)
