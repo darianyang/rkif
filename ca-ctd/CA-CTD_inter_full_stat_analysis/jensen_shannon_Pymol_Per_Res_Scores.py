@@ -5,11 +5,11 @@
 set sphere_color, red
 # The lines below are suggestions for potentially nicer figures.
 # You can comment them in if you want.
-# bg_color white
-# set cartoon_color, grey90
-# set ray_opaque_background, 0
-# set antialias, 2
-# set ray_shadows, 0
+bg_color white
+set cartoon_color, grey90
+set ray_opaque_background, 0
+set antialias, 2
+set ray_shadows, 0
 show spheres, resi 2 and name CA
 set sphere_scale, 1.0000, resi 2 and name CA
 show spheres, resi 90 and name CA

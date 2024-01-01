@@ -1,0 +1,5 @@
+     parm m01_2kod_dry.prmtop 
+ trajin 1500-3000i.nc 
+ distance T45-T133 :45&!@CA,C,O,N,H :133&!@CA,C,O,N,H out T-T-dist.dat 
+ go 
+

@@ -4,11 +4,11 @@
 # Make sure the .py files are in the same directory as the pdb.
 # The lines below are suggestions for potentially nicer figures.
 # You can comment them in if you want.
-# bg_color white
-# set cartoon_color, grey90
-# set ray_opaque_background, 0
-# set antialias, 2
-# set ray_shadows, 0
+bg_color white
+set cartoon_color, grey90
+set ray_opaque_background, 0
+set antialias, 2
+set ray_shadows, 0
 distance interaction0, resid 45 and name CA, resid 133 and name CA 
 set dash_radius, 0.5, interaction0 
 set dash_color, red, interaction0 
