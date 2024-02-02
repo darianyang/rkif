@@ -15,11 +15,13 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 import operator
 
+plt.style.use('/Users/darian/github/wedap/styles/default.mplstyle')
+
 class Gen_Class_Assignments:
 
     def __init__(self, c1_bounds=28, c2_bounds=16.5, c1_label="d1", c2_label="d2",
-                 coord_data_file="pcoord_full.dat",
-                 out_filename="CA-CTD_class_assignments_full.txt"):
+                 coord_data_file="pcoord.dat",
+                 out_filename="CA-CTD_class_assignments.txt"):
         """
         Parameters
         ----------
@@ -105,6 +107,7 @@ class Gen_Class_Assignments:
 
         # Create a colormap
         colors = ['#DEE11E', '#1EDEE1', '#E11EDE']
+        colors = ['#1594EA', '#989C96', '#EA6B15']
         cmap = ListedColormap(colors)
 
         # Scatter plot
@@ -135,8 +138,8 @@ class Gen_Class_Assignments:
         plt.title("CA-CTD State Labels")
 
         plt.tight_layout()
-        plt.savefig("state_labels_full.pdf")
-        #plt.show()
+        plt.savefig("state_labels_new.pdf")
+        plt.show()
 
 if __name__ == "__main__":
     gen = Gen_Class_Assignments()
