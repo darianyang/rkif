@@ -5,91 +5,91 @@
 set sphere_color, red
 # The lines below are suggestions for potentially nicer figures.
 # You can comment them in if you want.
-bg_color white
-set cartoon_color, grey90
-set ray_opaque_background, 0
-set antialias, 2
-set ray_shadows, 0
+# bg_color white
+# set cartoon_color, grey90
+# set ray_opaque_background, 0
+# set antialias, 2
+# set ray_shadows, 0
 show spheres, resi 2 and name CA
 set sphere_scale, 1.0000, resi 2 and name CA
 show spheres, resi 45 and name CA
-set sphere_scale, 0.9005, resi 45 and name CA
+set sphere_scale, 0.9037, resi 45 and name CA
 show spheres, resi 133 and name CA
-set sphere_scale, 0.8877, resi 133 and name CA
+set sphere_scale, 0.8912, resi 133 and name CA
 show spheres, resi 90 and name CA
-set sphere_scale, 0.8532, resi 90 and name CA
+set sphere_scale, 0.8547, resi 90 and name CA
 show spheres, resi 137 and name CA
-set sphere_scale, 0.7077, resi 137 and name CA
+set sphere_scale, 0.7108, resi 137 and name CA
 show spheres, resi 8 and name CA
-set sphere_scale, 0.6407, resi 8 and name CA
+set sphere_scale, 0.6462, resi 8 and name CA
 show spheres, resi 96 and name CA
-set sphere_scale, 0.6361, resi 96 and name CA
+set sphere_scale, 0.6401, resi 96 and name CA
 show spheres, resi 49 and name CA
-set sphere_scale, 0.6122, resi 49 and name CA
+set sphere_scale, 0.6137, resi 49 and name CA
 show spheres, resi 93 and name CA
-set sphere_scale, 0.6055, resi 93 and name CA
+set sphere_scale, 0.6065, resi 93 and name CA
 show spheres, resi 5 and name CA
-set sphere_scale, 0.5705, resi 5 and name CA
+set sphere_scale, 0.5727, resi 5 and name CA
 show spheres, resi 3 and name CA
-set sphere_scale, 0.4953, resi 3 and name CA
+set sphere_scale, 0.4980, resi 3 and name CA
 show spheres, resi 91 and name CA
-set sphere_scale, 0.4687, resi 91 and name CA
+set sphere_scale, 0.4698, resi 91 and name CA
 show spheres, resi 134 and name CA
-set sphere_scale, 0.4192, resi 134 and name CA
+set sphere_scale, 0.4223, resi 134 and name CA
 show spheres, resi 46 and name CA
-set sphere_scale, 0.4038, resi 46 and name CA
+set sphere_scale, 0.4064, resi 46 and name CA
 show spheres, resi 129 and name CA
-set sphere_scale, 0.3834, resi 129 and name CA
+set sphere_scale, 0.3872, resi 129 and name CA
 show spheres, resi 41 and name CA
-set sphere_scale, 0.2839, resi 41 and name CA
+set sphere_scale, 0.2834, resi 41 and name CA
 show spheres, resi 132 and name CA
-set sphere_scale, 0.2072, resi 132 and name CA
+set sphere_scale, 0.2084, resi 132 and name CA
 show spheres, resi 44 and name CA
-set sphere_scale, 0.1868, resi 44 and name CA
+set sphere_scale, 0.1872, resi 44 and name CA
 show spheres, resi 136 and name CA
-set sphere_scale, 0.1668, resi 136 and name CA
+set sphere_scale, 0.1666, resi 136 and name CA
 show spheres, resi 48 and name CA
-set sphere_scale, 0.1470, resi 48 and name CA
+set sphere_scale, 0.1455, resi 48 and name CA
 show spheres, resi 147 and name CA
-set sphere_scale, 0.1403, resi 147 and name CA
+set sphere_scale, 0.1396, resi 147 and name CA
 show spheres, resi 89 and name CA
-set sphere_scale, 0.1275, resi 89 and name CA
+set sphere_scale, 0.1263, resi 89 and name CA
 show spheres, resi 154 and name CA
-set sphere_scale, 0.1225, resi 154 and name CA
+set sphere_scale, 0.1226, resi 154 and name CA
 show spheres, resi 4 and name CA
-set sphere_scale, 0.1156, resi 4 and name CA
+set sphere_scale, 0.1171, resi 4 and name CA
 show spheres, resi 56 and name CA
-set sphere_scale, 0.1047, resi 56 and name CA
+set sphere_scale, 0.1051, resi 56 and name CA
 show spheres, resi 59 and name CA
-set sphere_scale, 0.1016, resi 59 and name CA
+set sphere_scale, 0.1023, resi 59 and name CA
 show spheres, resi 60 and name CA
-set sphere_scale, 0.0862, resi 60 and name CA
+set sphere_scale, 0.0863, resi 60 and name CA
 show spheres, resi 144 and name CA
-set sphere_scale, 0.0810, resi 144 and name CA
+set sphere_scale, 0.0827, resi 144 and name CA
 show spheres, resi 63 and name CA
-set sphere_scale, 0.0774, resi 63 and name CA
+set sphere_scale, 0.0785, resi 63 and name CA
 show spheres, resi 151 and name CA
-set sphere_scale, 0.0703, resi 151 and name CA
+set sphere_scale, 0.0697, resi 151 and name CA
 show spheres, resi 152 and name CA
-set sphere_scale, 0.0621, resi 152 and name CA
+set sphere_scale, 0.0594, resi 152 and name CA
 show spheres, resi 64 and name CA
-set sphere_scale, 0.0417, resi 64 and name CA
+set sphere_scale, 0.0431, resi 64 and name CA
 show spheres, resi 66 and name CA
-set sphere_scale, 0.0296, resi 66 and name CA
+set sphere_scale, 0.0288, resi 66 and name CA
 show spheres, resi 35 and name CA
-set sphere_scale, 0.0195, resi 35 and name CA
+set sphere_scale, 0.0202, resi 35 and name CA
 show spheres, resi 125 and name CA
-set sphere_scale, 0.0195, resi 125 and name CA
+set sphere_scale, 0.0202, resi 125 and name CA
 show spheres, resi 153 and name CA
-set sphere_scale, 0.0187, resi 153 and name CA
+set sphere_scale, 0.0193, resi 153 and name CA
 show spheres, resi 65 and name CA
-set sphere_scale, 0.0152, resi 65 and name CA
+set sphere_scale, 0.0144, resi 65 and name CA
 show spheres, resi 155 and name CA
 set sphere_scale, 0.0109, resi 155 and name CA
 show spheres, resi 38 and name CA
-set sphere_scale, 0.0078, resi 38 and name CA
+set sphere_scale, 0.0079, resi 38 and name CA
 show spheres, resi 126 and name CA
-set sphere_scale, 0.0078, resi 126 and name CA
+set sphere_scale, 0.0079, resi 126 and name CA
 show spheres, resi 6 and name CA
 set sphere_scale, 0.0000, resi 6 and name CA
 show spheres, resi 7 and name CA

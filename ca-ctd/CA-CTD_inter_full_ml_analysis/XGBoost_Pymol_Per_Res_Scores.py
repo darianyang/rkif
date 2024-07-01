@@ -13,47 +13,57 @@ set sphere_color, red
 show spheres, resi 45 and name CA
 set sphere_scale, 1.0000, resi 45 and name CA
 show spheres, resi 133 and name CA
-set sphere_scale, 0.9989, resi 133 and name CA
+set sphere_scale, 0.9998, resi 133 and name CA
 show spheres, resi 8 and name CA
-set sphere_scale, 0.0971, resi 8 and name CA
+set sphere_scale, 0.0806, resi 8 and name CA
 show spheres, resi 134 and name CA
-set sphere_scale, 0.0971, resi 134 and name CA
+set sphere_scale, 0.0806, resi 134 and name CA
 show spheres, resi 96 and name CA
-set sphere_scale, 0.0128, resi 96 and name CA
+set sphere_scale, 0.0169, resi 96 and name CA
 show spheres, resi 46 and name CA
-set sphere_scale, 0.0127, resi 46 and name CA
-show spheres, resi 90 and name CA
-set sphere_scale, 0.0008, resi 90 and name CA
+set sphere_scale, 0.0167, resi 46 and name CA
 show spheres, resi 137 and name CA
-set sphere_scale, 0.0003, resi 137 and name CA
+set sphere_scale, 0.0002, resi 137 and name CA
 show spheres, resi 93 and name CA
-set sphere_scale, 0.0003, resi 93 and name CA
-show spheres, resi 91 and name CA
-set sphere_scale, 0.0002, resi 91 and name CA
-show spheres, resi 2 and name CA
-set sphere_scale, 0.0002, resi 2 and name CA
+set sphere_scale, 0.0002, resi 93 and name CA
 show spheres, resi 4 and name CA
 set sphere_scale, 0.0002, resi 4 and name CA
+show spheres, resi 2 and name CA
+set sphere_scale, 0.0002, resi 2 and name CA
+show spheres, resi 49 and name CA
+set sphere_scale, 0.0002, resi 49 and name CA
+show spheres, resi 132 and name CA
+set sphere_scale, 0.0001, resi 132 and name CA
+show spheres, resi 154 and name CA
+set sphere_scale, 0.0001, resi 154 and name CA
+show spheres, resi 3 and name CA
+set sphere_scale, 0.0001, resi 3 and name CA
+show spheres, resi 90 and name CA
+set sphere_scale, 0.0001, resi 90 and name CA
 show spheres, resi 5 and name CA
 set sphere_scale, 0.0001, resi 5 and name CA
-show spheres, resi 49 and name CA
-set sphere_scale, 0.0001, resi 49 and name CA
-show spheres, resi 154 and name CA
-set sphere_scale, 0.0000, resi 154 and name CA
-show spheres, resi 48 and name CA
-set sphere_scale, 0.0000, resi 48 and name CA
-show spheres, resi 129 and name CA
-set sphere_scale, 0.0000, resi 129 and name CA
 show spheres, resi 144 and name CA
 set sphere_scale, 0.0000, resi 144 and name CA
-show spheres, resi 44 and name CA
-set sphere_scale, 0.0000, resi 44 and name CA
+show spheres, resi 38 and name CA
+set sphere_scale, 0.0000, resi 38 and name CA
+show spheres, resi 126 and name CA
+set sphere_scale, 0.0000, resi 126 and name CA
 show spheres, resi 153 and name CA
 set sphere_scale, 0.0000, resi 153 and name CA
-show spheres, resi 132 and name CA
-set sphere_scale, 0.0000, resi 132 and name CA
-show spheres, resi 3 and name CA
-set sphere_scale, 0.0000, resi 3 and name CA
+show spheres, resi 44 and name CA
+set sphere_scale, 0.0000, resi 44 and name CA
+show spheres, resi 64 and name CA
+set sphere_scale, 0.0000, resi 64 and name CA
+show spheres, resi 48 and name CA
+set sphere_scale, 0.0000, resi 48 and name CA
+show spheres, resi 63 and name CA
+set sphere_scale, 0.0000, resi 63 and name CA
+show spheres, resi 89 and name CA
+set sphere_scale, 0.0000, resi 89 and name CA
+show spheres, resi 129 and name CA
+set sphere_scale, 0.0000, resi 129 and name CA
+show spheres, resi 91 and name CA
+set sphere_scale, 0.0000, resi 91 and name CA
 show spheres, resi 6 and name CA
 set sphere_scale, 0.0000, resi 6 and name CA
 show spheres, resi 7 and name CA
@@ -116,8 +126,6 @@ show spheres, resi 36 and name CA
 set sphere_scale, 0.0000, resi 36 and name CA
 show spheres, resi 37 and name CA
 set sphere_scale, 0.0000, resi 37 and name CA
-show spheres, resi 38 and name CA
-set sphere_scale, 0.0000, resi 38 and name CA
 show spheres, resi 39 and name CA
 set sphere_scale, 0.0000, resi 39 and name CA
 show spheres, resi 40 and name CA
@@ -156,10 +164,6 @@ show spheres, resi 61 and name CA
 set sphere_scale, 0.0000, resi 61 and name CA
 show spheres, resi 62 and name CA
 set sphere_scale, 0.0000, resi 62 and name CA
-show spheres, resi 63 and name CA
-set sphere_scale, 0.0000, resi 63 and name CA
-show spheres, resi 64 and name CA
-set sphere_scale, 0.0000, resi 64 and name CA
 show spheres, resi 65 and name CA
 set sphere_scale, 0.0000, resi 65 and name CA
 show spheres, resi 66 and name CA
@@ -208,8 +212,6 @@ show spheres, resi 87 and name CA
 set sphere_scale, 0.0000, resi 87 and name CA
 show spheres, resi 88 and name CA
 set sphere_scale, 0.0000, resi 88 and name CA
-show spheres, resi 89 and name CA
-set sphere_scale, 0.0000, resi 89 and name CA
 show spheres, resi 92 and name CA
 set sphere_scale, 0.0000, resi 92 and name CA
 show spheres, resi 94 and name CA
@@ -274,8 +276,6 @@ show spheres, resi 124 and name CA
 set sphere_scale, 0.0000, resi 124 and name CA
 show spheres, resi 125 and name CA
 set sphere_scale, 0.0000, resi 125 and name CA
-show spheres, resi 126 and name CA
-set sphere_scale, 0.0000, resi 126 and name CA
 show spheres, resi 127 and name CA
 set sphere_scale, 0.0000, resi 127 and name CA
 show spheres, resi 128 and name CA
@@ -318,4 +318,4 @@ show spheres, resi 152 and name CA
 set sphere_scale, 0.0000, resi 152 and name CA
 show spheres, resi 155 and name CA
 set sphere_scale, 0.0000, resi 155 and name CA
-sele All_Spheres, resi 45+133+8+134+96+46+90+137+93+91+2+4+5+49+154+48+129+144+44+153+132+3+6+7+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25+26+27+28+29+30+31+32+33+34+35+36+37+38+39+40+41+42+43+47+50+51+52+53+54+55+56+57+58+59+60+61+62+63+64+65+66+67+68+69+70+71+72+73+74+75+76+77+78+79+80+81+82+83+84+85+86+87+88+89+92+94+95+97+98+99+100+101+102+103+104+105+106+107+108+109+110+111+112+113+114+115+116+117+118+119+120+121+122+123+124+125+126+127+128+130+131+135+136+138+139+140+141+142+143+145+146+147+148+149+150+151+152+155 and name CA
+sele All_Spheres, resi 45+133+8+134+96+46+137+93+4+2+49+132+154+3+90+5+144+38+126+153+44+64+48+63+89+129+91+6+7+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25+26+27+28+29+30+31+32+33+34+35+36+37+39+40+41+42+43+47+50+51+52+53+54+55+56+57+58+59+60+61+62+65+66+67+68+69+70+71+72+73+74+75+76+77+78+79+80+81+82+83+84+85+86+87+88+92+94+95+97+98+99+100+101+102+103+104+105+106+107+108+109+110+111+112+113+114+115+116+117+118+119+120+121+122+123+124+125+127+128+130+131+135+136+138+139+140+141+142+143+145+146+147+148+149+150+151+152+155 and name CA
